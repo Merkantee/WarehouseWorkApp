@@ -1,0 +1,30 @@
+﻿<Window x:Class="WarehouseWorkApp.ManagerWindows.Inventory_resultsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WarehouseWorkApp.ManagerWindows"
+        mc:Ignorable="d"
+        Title="Inventory_resultsWindow" Height="450" Width="800" Background="LightGreen" Icon="pack://application:,,,/icons/Version1.png" Closing="Window_Closing">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.66*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2">
+            <TextBlock x:Name="LogiLogin" HorizontalAlignment="Center" Text="Менеджер Тенма" Margin="0,18,0,40" />
+            <TextBlock HorizontalAlignment="Center" Text="Результаты инвентаризации" Margin="0,0,0,16"/>
+            <DataGrid x:Name="LogiView" d:ItemsSource="{d:SampleData ItemCount=10}" Width="455" Height="215.56"/>
+            <Button Width="120" Height="40" VerticalAlignment="Top" Margin="0,30,0,0" Click="ExportButton_Click">
+                <Button.Content>
+                    <TextBlock Text="Сохранить, как файл" TextWrapping="Wrap" TextAlignment="Center" FontSize="12.6"/>
+                </Button.Content>
+            </Button>
+        </StackPanel>
+        <Button Background="IndianRed" Width="45" Height="45" VerticalAlignment="Top" Margin="0,30,0,0" HorizontalAlignment="Right" Click="Exit">
+            <Button.Content>
+                <TextBlock Text="Назад" TextWrapping="Wrap" TextAlignment="Center" FontSize="12.6"/>
+            </Button.Content>
+        </Button>
+    </Grid>
+</Window>

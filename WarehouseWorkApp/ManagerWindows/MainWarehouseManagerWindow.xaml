@@ -1,0 +1,36 @@
+﻿<Window x:Class="WarehouseWorkApp.ManagerWindows.MainWarehouseManagerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WarehouseWorkApp.ManagerWindows"
+        mc:Ignorable="d"
+        Title="Менеджер" Height="450" Width="800" Icon="pack://application:,,,/icons/Version1.png" Background="LightGreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.765*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.18*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" Grid.Row="1" Grid.ColumnSpan="2">
+            <Button Content="Поставки" Margin="5,6,6,12" Width="500" Click="Go_to_suplier"/>
+            <Button Content="Товары" Margin="5,6,6,12" Click="Go_to_product"/>
+            <Button Content="Категории товара" Margin="5,6,6,5" Click="Go_to_category_product"/>
+            <Button Content="Помещения склада" Margin="5,6,6,15" Click="Go_to_storeg_room"/>
+            <Button Height="35.92" Width="508.5" Margin="0,9,0,0" Click="Go_to_Results_inventory">
+                <Button.Content>
+                    <TextBlock Text="Результат инвентаризации" TextWrapping="Wrap" TextAlignment="Center"/>
+                </Button.Content>
+            </Button>
+        </StackPanel>
+        <Button Background="IndianRed" Width="60" Height="50" VerticalAlignment="Top" Margin="8,9,0,8" HorizontalAlignment="Right" Click="Exit">
+            <Button.Content>
+                <TextBlock Text="Выход" TextWrapping="Wrap" TextAlignment="Center" FontSize="13.9"/>
+            </Button.Content>
+        </Button>
+        <TextBlock x:Name="NameManager" Text="Менеджер Тенма" FontSize="12" Grid.Column="1" VerticalAlignment="Center" Margin="40,0,0,15"/>
+    </Grid>
+</Window>

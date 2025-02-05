@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WarehouseWorkApp.AdminWindows.LogsWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAABAAAAAAAAEAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>AdminWindows\LogsWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WarehouseWorkApp.AdminWindows.MainAdminWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAABAAAAAAAAAAAAAAIAQABAAAQgA=</HashCode>
+      <FileName>AdminWindows\MainAdminWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WarehouseWorkApp.AdminWindows.SessionsWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAABAAAAAAAAEAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>AdminWindows\SessionsWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WarehouseWorkApp.AdminWindows.StaffsWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAABAAEIgAABAAAQAAAAAAAAAEYEAAAAAAAAA=</HashCode>
+      <FileName>AdminWindows\StaffsWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WarehouseWorkApp.AdminWindows.SuppliersWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAEAAAABgAAAAFAAAAAACAIAAAAAAAAAA=</HashCode>
+      <FileName>AdminWindows\SuppliersWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WarehouseWorkApp.App" Collapsed="true">
+    <Position X="1.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarehouseWorkApp.Auth" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEBAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Auth.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WarehouseWorkApp.SQLClass" Collapsed="true">
+    <Position X="8.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAxAAAAAAIBAAAZQQAAAIEAAEIAAAACU=</HashCode>
+      <FileName>model\SQLClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarehouseWorkApp.Users" Collapsed="true">
+    <Position X="8.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAgAAAACABRABAAAAAAAAYAAAAAAAAA=</HashCode>
+      <FileName>model\Users.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarehouseWorkApp.ManagerWindows.Inventory_resultsWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAABAAAAAAAAEAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>ManagerWindows\Inventory_resultsWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WarehouseWorkApp.ManagerWindows.MainWarehouseManagerWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAQAAAAAAAAAAAAABAAACIAAIAQAAAAA=</HashCode>
+      <FileName>ManagerWindows\MainWarehouseManagerWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WarehouseWorkApp.ManagerWindows.product_categoriesWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEBAAABAAAAAAAAAAQBAAIACEAAAAAAA=</HashCode>
+      <FileName>ManagerWindows\product_categoriesWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WarehouseWorkApp.ManagerWindows.product_suplpiersWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAEQAEBEAABAAAEAAAAAQAAAAIACAAAAAAAA=</HashCode>
+      <FileName>ManagerWindows\product_suplpiersWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WarehouseWorkApp.ManagerWindows.ProductsWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEBAAABACAAAAAAAAQAAAIACAAAAAEEA=</HashCode>
+      <FileName>ManagerWindows\ProductsWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WarehouseWorkApp.ManagerWindows.storage_roomsWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAEBAAABAAgAAAAAAAQAAAIACAAAAAAAA=</HashCode>
+      <FileName>ManagerWindows\storage_roomsWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WarehouseWorkApp.model.Inventory_results" Collapsed="true">
+    <Position X="4.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAQAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAABBIQAA=</HashCode>
+      <FileName>model\Inventory_results.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarehouseWorkApp.model.Logi" Collapsed="true">
+    <Position X="10" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAAAAAAAAQAA=</HashCode>
+      <FileName>model\Logi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarehouseWorkApp.model.PassLog" Collapsed="true">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAEAAAAAAACAAAQAAAABAA=</HashCode>
+      <FileName>model\PassLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarehouseWorkApp.model.Product_categories" Collapsed="true">
+    <Position X="4.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>model\Product_categories.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarehouseWorkApp.model.Product_location" Collapsed="true">
+    <Position X="8.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAQAQAAAAAAAAAAEABAIAAA=</HashCode>
+      <FileName>model\Product_location.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarehouseWorkApp.model.Product_Plus_Category" Collapsed="true">
+    <Position X="1.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAQAAAIAAAAAAAAAABAAgAAAAAA=</HashCode>
+      <FileName>model\Product_Plus_Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarehouseWorkApp.model.Product_Supplier" Collapsed="true">
+    <Position X="4.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAAAABAABA=</HashCode>
+      <FileName>model\Product_Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarehouseWorkApp.model.Products" Collapsed="true">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAQAAAAAAAAAAAABABAAgABAAAA=</HashCode>
+      <FileName>model\Products.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarehouseWorkApp.model.Roles" Collapsed="true">
+    <Position X="1.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>model\Roles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarehouseWorkApp.model.Session" Collapsed="true">
+    <Position X="3" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAABAAAAAAACAAABAAAAAA=</HashCode>
+      <FileName>model\Session.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarehouseWorkApp.model.Storage_rooms" Collapsed="true">
+    <Position X="1.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAEAAAgAAAAA=</HashCode>
+      <FileName>model\Storage_rooms.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarehouseWorkApp.model.Suppliers" Collapsed="true">
+    <Position X="4.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAKAAAAAAAAA=</HashCode>
+      <FileName>model\Suppliers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarehouseWorkApp.Properties.Resources" Collapsed="true">
+    <Position X="10" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarehouseWorkApp.Properties.Settings" Collapsed="true">
+    <Position X="6.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarehouseWorkApp.WorkerWindows.Inventory_resultWorkerWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAIAAACAABAACBAAAEAAAAAAQAAAIACAQAAAAEA=</HashCode>
+      <FileName>WorkerWindows\Inventory_resultWorkerWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WarehouseWorkApp.WorkerWindows.LookProduct_Suplliers" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAIAAAQAAAAAA=</HashCode>
+      <FileName>WorkerWindows\LookProduct_Suplliers.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WarehouseWorkApp.WorkerWindows.LookProducts" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAIAAAQAAAAAA=</HashCode>
+      <FileName>WorkerWindows\LookProducts.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WarehouseWorkApp.WorkerWindows.LookRooms" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAIAAAQAAAAAA=</HashCode>
+      <FileName>WorkerWindows\LookRooms.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WarehouseWorkApp.WorkerWindows.MainWarehouseWorkerWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAACQAAAAAAAMAAAQAgAAAA=</HashCode>
+      <FileName>WorkerWindows\MainWarehouseWorkerWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WarehouseWorkApp.WorkerWindows.Product_locationWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAMBQAEEABBAAAwAEAIACARgAAAEA=</HashCode>
+      <FileName>WorkerWindows\Product_locationWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
